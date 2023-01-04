@@ -11,10 +11,8 @@
     background-color: rgb(47, 86, 190);
 }
 div.avatar {
-    /* cambia estos dos valores para definir el tamaño de tu círculo */
     height: 150px;
     width: 150px;
-    /* los siguientes valores son independientes del tamaño del círculo */
     background-repeat: no-repeat;
     background-position: 50%;
     border-radius: 50%;
@@ -26,12 +24,21 @@ li{
     color: white;
 }
 
-/*parte de botones*/
+/*parte de links a la misma pag*/
 #botones{
     width: 300px;
     height: 1051px;
     float: left;
     background-color: rgb(90, 90, 90);
+}
+.li_datos{
+    color: black;
+}
+#ver{
+    color: white;
+}
+#referencias{
+    margin: 5px;
 }
 
 /*parte derecha*/
@@ -72,13 +79,125 @@ p{
     font-size: 20px;
     margin: 4px;
 }
-
-.li_datos{
+/*bloques ver mas*/
+#vermas1{
+    border: 2px solid rgb(122, 116, 107);
+    width: 500px;
+    height: 400px;
+    position:absolute;
+    top: 150px;
+    left: 700px;
+    background-color: rgb(255, 245, 232);
+    display: none;
+}
+#vermas2{
+    border: 2px solid rgb(122, 116, 107);
+    width: 500px;
+    height: 400px;
+    position:absolute;
+    top: 350px;
+    left: 700px;
+    background-color: rgb(255, 245, 232);
+    display: none;
+}
+#vermas3{
+    border: 2px solid rgb(122, 116, 107);
+    width: 500px;
+    height: 450px;
+    position:absolute;
+    top: 550px;
+    left: 700px;
+    background-color: rgb(255, 245, 232);
+    display: none;
+}
+#vermas4{
+    border: 2px solid rgb(122, 116, 107);
+    width: 500px;
+    height: 400px;
+    position:absolute;
+    top: 800px;
+    left: 700px;
+    background-color: rgb(255, 245, 232);
+    display: none;
+}
+#vermas5{
+    border: 2px solid rgb(122, 116, 107);
+    width: 500px;
+    height: 400px;
+    position:absolute;
+    top: 950px;
+    left: 700px;
+    background-color: rgb(255, 245, 232);
+    display: none;
+}
+/*cambia el color de la letra de los bloques*/
+.vermas{
     color: black;
 }
-#ver{
-    color: white;
+/*botones ver mas*/
+#btnvermas1{
+    border: 2px solid black;
+    position:absolute;
+    top: 325px;
+    left: 1240px;
 }
-#referencias{
-    margin: 5px;
+#btnvermas2{
+    border: 2px solid black;
+    position:absolute;
+    top: 540px;
+    left: 1240px;
+}
+#btnvermas3{
+    border: 2px solid black;
+    position:absolute;
+    top: 755px;
+    left: 1240px;
+}
+#btnvermas4{
+    border: 2px solid black;
+    position:absolute;
+    top: 970px;
+    left: 1240px;
+}
+#btnvermas5{
+    border: 2px solid black;
+    position:absolute;
+    top: 1185px;
+    left: 1240px;
+}
+/*botones ver menos*/
+#btnvermenos1{
+    border: 2px solid black;
+    position:absolute;
+    top: 325px;
+    left: 1225px;
+    display: none;
+}
+#btnvermenos2{
+    border: 2px solid black;
+    position:absolute;
+    top: 540px;
+    left: 1235px;
+    display: none;
+}
+#btnvermenos3{
+    border: 2px solid black;
+    position:absolute;
+    top: 755px;
+    left: 1225px;
+    display: none;
+}
+#btnvermenos4{
+    border: 2px solid black;
+    position:absolute;
+    top: 970px;
+    left: 1225px;
+    display: none;
+}
+#btnvermenos5{
+    border: 2px solid black;
+    position:absolute;
+    top: 1185px;
+    left: 1225px;
+    display: none;
 }
