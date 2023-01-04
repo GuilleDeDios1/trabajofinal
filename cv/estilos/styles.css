@@ -61,7 +61,7 @@ h1{
 .separador{
     border: 2px solid rgb(47, 86, 190);
     width: 1000px;
-    margin: 20px;
+    margin: 10px;
 }
 
 .texto{
@@ -71,4 +71,14 @@ h1{
 p{
     font-size: 20px;
     margin: 4px;
+}
+
+.li_datos{
+    color: black;
+}
+#ver{
+    color: white;
+}
+#referencias{
+    margin: 5px;
 }
