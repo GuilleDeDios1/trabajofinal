@@ -3,7 +3,7 @@ var fechaactual = new Date();
 var fechanacimiento = new Date(1963, 1, 5)
 document.getElementById("cumpleaños").innerHTML += fechaactual.getFullYear()-fechanacimiento.getFullYear();
 
-//botones ver mass
+//funcion que permite que solo se habra un solo ver mas a la ves
 function sacar(){
     for (let index = 1; index <= 5; index++) {
         if(document.getElementById("vermas"+index).style.display == "block"){
@@ -13,12 +13,16 @@ function sacar(){
         }
     }
 }
+
+//botones ver mass
+
+//quise generalizar la funcion de los botones ver mas y ver menos pero la parte addEventListener("click",function())
+//no me deja mandar por parametro el numero del boton correspondiente
 document.getElementById("btnvermas1").addEventListener("click",function(){
     sacar();
-    var num = 1
-    document.getElementById("vermas"+num).style = 'display:block';
-    document.getElementById("btnvermas"+num).style = 'display:none';
-    document.getElementById("btnvermenos"+num).style = 'display:block';
+    document.getElementById("vermas1").style = 'display:block';
+    document.getElementById("btnvermas1").style = 'display:none';
+    document.getElementById("btnvermenos1").style = 'display:block';
 });
 
 document.getElementById("btnvermas2").addEventListener("click",function(){
